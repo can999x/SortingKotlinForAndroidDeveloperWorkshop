@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
     {
         for(x in 0..size-i-2)
         {
-            if(array[x]>array[x+1])
+            if(array[x]>array[x+1])     // Ascending = ">" , Descending = "<"
             {
                 val temp = array[x]     //temp untuk sementara biar nilainya gak langsung ke copy / ketimpa
                 array[x] = array[x+1]
